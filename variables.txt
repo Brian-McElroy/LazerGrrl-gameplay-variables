@@ -1,0 +1,49 @@
+//Controls
+    public const float MoveTime = 0.12f;
+    public const float AllowBuildRatio = 0.5f;
+    public const float HaventMovedThreshold = 0.03f;
+
+    public const float MoveThreshold = 0.8f;
+
+    //Energy Economy
+    public const int StartingEnergyAmount = 15; // 15
+    public const int MaxEnergyBankAmount = 35; // 30
+    public const int Price_Wall = 1; 
+    public const int Price_Pgen = 5; 
+    public const int Price_Lazer = 5;
+
+    public const int RowsOfEnergyStorage = 7;
+    public const int ColumnsOfEnergyStorage = 5;
+
+    //Energy Usage
+    public const float EnergyGridCycleInterval = 0.5f;
+    public const int EnergyBallValue = 1;
+
+    public const float EProductionRatedPerXSecs = 2f;
+    public const float LazersExtraTimeAllowance = 1.2f;
+    public const int PgenEProductionPerXSecs = 1;
+    public const int PgenEProductionPerXSecs_Mega = 5;
+    public const int PgenEProductionPerXSecs_Ultra = 15;
+    public const int LazerEUsePerXSecs = 1;
+    public const int LazerEUsePerXSecs_Mega = 3; //3 
+    public const int LazerEUsePerXSecs_Ultra = 15;//15;
+
+    public const int HolesPerGroup = 5;
+
+    //Lazerrs
+    public const float LazerDPS = 1f;
+    public const float LazerDPS_Mega = 2f;
+    public const float LazerDPS_Ultra = 4f;
+
+    public const float DivideByForIneffective = 2.5f;
+
+    //HitPoints
+    public const float HP_Player = 1f; //1f
+    public const float HP_Wall = 10f;
+    public const float HP_WeakWall = 5f;
+    public const float HP_StrongWall = 20f;
+    public const float HP_UltraWall = 40f;
+    public const float HP_BankBlock = 20f;
+    public const float HP_Base = 32f; //40
+    public const float HP_Pgen = 5f;
+    public const float HP_Lazer = 5f;
